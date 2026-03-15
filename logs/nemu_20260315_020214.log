@@ -1,0 +1,7 @@
+2026-03-15 02:02:14 | INFO | NEMU | [logger.py:64] | NEMU logging system initialized
+2026-03-15 02:02:14 | INFO | NEMU | [agent.py:19] | Environment loaded
+2026-03-15 02:02:14 | INFO | NEMU | [agent.py:104] | Starting NEMU Agent Server
+2026-03-15 02:02:14 | INFO | NEMU | [agent.py:55] | RTC session started | Room: console
+2026-03-15 02:02:14 | INFO | NEMU | [agent.py:30] | Initializing NEMU Assistant
+2026-03-15 02:02:14 | INFO | NEMU | [NEMU_SearchEngine.py:126] | NEMU Search Engine initialized
+2026-03-15 02:02:15 | INFO | NEMU | [agent.py:78] | Agent session started

@@ -1,0 +1,25 @@
+2026-03-13 02:15:22 - NEMU - INFO - [NEMU_SearchEngine.py:82] - NEMU Search Engine initialized
+2026-03-13 02:15:42 - NEMU - INFO - [NEMU_SearchEngine.py:28] - Search initiated - Query: 'Kolkata weather today' | Results requested: 5
+2026-03-13 02:15:42 - NEMU - DEBUG - [NEMU_SearchEngine.py:37] - Sending request to SerpAPI
+2026-03-13 02:15:46 - NEMU - DEBUG - [NEMU_SearchEngine.py:40] - API Response received successfully
+2026-03-13 02:15:46 - NEMU - DEBUG - [NEMU_SearchEngine.py:41] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'answer_box', 'organic_results', 'related_searches', 'pagination', 'serpapi_pagination']
+2026-03-13 02:15:46 - NEMU - INFO - [NEMU_SearchEngine.py:61] - Search successful - Found 5 results for 'Kolkata weather today'
+2026-03-13 02:15:46 - NEMU - DEBUG - [NEMU_SearchEngine.py:62] - Results: ['Kolkata, West Bengal, India Weather Forecast', '10-Day Weather Forecast for Kolkata, West Bengal, India', 'Kolkata, India Hourly Weather Forecast', '10-day weather forecast for Kolkata, West Bengal', 'Kolkata, West Bengal, India 14 day weather forecast']
+2026-03-13 02:16:54 - NEMU - INFO - [NEMU_SearchEngine.py:28] - Search initiated - Query: 'Narendra Modi Epstein file role' | Results requested: 5
+2026-03-13 02:16:54 - NEMU - DEBUG - [NEMU_SearchEngine.py:37] - Sending request to SerpAPI
+2026-03-13 02:16:55 - NEMU - DEBUG - [NEMU_SearchEngine.py:40] - API Response received successfully
+2026-03-13 02:16:55 - NEMU - DEBUG - [NEMU_SearchEngine.py:41] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'inline_videos', 'organic_results', 'pagination', 'serpapi_pagination']
+2026-03-13 02:16:55 - NEMU - INFO - [NEMU_SearchEngine.py:61] - Search successful - Found 2 results for 'Narendra Modi Epstein file role'
+2026-03-13 02:16:55 - NEMU - DEBUG - [NEMU_SearchEngine.py:62] - Results: ['Fact-Checking the “Modi Epstein Files” Rumor - Sekolapedia', 'Modi to Kevin Rudd: How Epstein files set off a storm far ...']
+2026-03-13 02:18:45 - NEMU - INFO - [NEMU_SearchEngine.py:28] - Search initiated - Query: 'Jeffrey Epstein's life' | Results requested: 5
+2026-03-13 02:18:45 - NEMU - DEBUG - [NEMU_SearchEngine.py:37] - Sending request to SerpAPI
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:40] - API Response received successfully
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:41] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'inline_videos', 'organic_results', 'pagination', 'serpapi_pagination']
+2026-03-13 02:18:53 - NEMU - INFO - [NEMU_SearchEngine.py:61] - Search successful - Found 4 results for 'Jeffrey Epstein's life'
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:62] - Results: ['Jeffrey Epstein', 'Who was Jeffrey Epstein? The disgraced financier with ...', 'Jeffrey Epstein | Biography | Research Starters', 'Jeffrey Epstein: Timeline that led to sex-trafficking charges']
+2026-03-13 02:18:53 - NEMU - INFO - [NEMU_SearchEngine.py:28] - Search initiated - Query: 'Jeffrey Epstein's life' | Results requested: 5
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:37] - Sending request to SerpAPI
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:40] - API Response received successfully
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:41] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'inline_videos', 'organic_results', 'pagination', 'serpapi_pagination']
+2026-03-13 02:18:53 - NEMU - INFO - [NEMU_SearchEngine.py:61] - Search successful - Found 4 results for 'Jeffrey Epstein's life'
+2026-03-13 02:18:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:62] - Results: ['Jeffrey Epstein', 'Who was Jeffrey Epstein? The disgraced financier with ...', 'Jeffrey Epstein | Biography | Research Starters', 'Jeffrey Epstein: Timeline that led to sex-trafficking charges']

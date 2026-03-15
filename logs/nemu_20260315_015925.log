@@ -1,0 +1,9 @@
+2026-03-15 01:59:25 | INFO | NEMU | [logger.py:64] | NEMU logging system initialized
+2026-03-15 01:59:25 | INFO | NEMU | [agent.py:18] | Environment loaded
+2026-03-15 01:59:25 | INFO | NEMU | [agent.py:107] | Starting NEMU Agent Server
+2026-03-15 01:59:25 | INFO | NEMU | [agent.py:54] | RTC session started | Room: console
+2026-03-15 01:59:25 | INFO | NEMU | [agent.py:29] | Initializing NEMU Assistant
+2026-03-15 01:59:25 | INFO | NEMU | [NEMU_SearchEngine.py:126] | NEMU Search Engine initialized
+2026-03-15 01:59:26 | INFO | NEMU | [agent.py:77] | Agent session started
+2026-03-15 01:59:51 | INFO | NEMU | [NEMU_SearchEngine.py:59] | SEARCH_START | Query: global news update March 14 2026
+2026-03-15 01:59:53 | INFO | NEMU | [NEMU_SearchEngine.py:106] | SEARCH_SUCCESS | global news update March 14 2026

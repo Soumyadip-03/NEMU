@@ -1,0 +1,10 @@
+livekit
+livekit-agents
+livekit-plugins-silero
+livekit-plugins-noise-cancellation
+python-dotenv
+livekit-plugins-google
+mem0ai
+langchain_community
+requests
+google-search-results

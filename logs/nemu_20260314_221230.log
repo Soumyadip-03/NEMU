@@ -1,0 +1,7 @@
+2026-03-14 22:12:30 - NEMU - INFO - [NEMU_SearchEngine.py:108] - NEMU Search Engine initialized
+2026-03-14 22:14:53 - NEMU - INFO - [NEMU_SearchEngine.py:47] - Search initiated - Query: 'latest news in Bengali' | Results requested: 3
+2026-03-14 22:14:53 - NEMU - DEBUG - [NEMU_SearchEngine.py:56] - Sending request to SerpAPI
+2026-03-14 22:14:57 - NEMU - DEBUG - [NEMU_SearchEngine.py:59] - API Response received successfully
+2026-03-14 22:14:57 - NEMU - DEBUG - [NEMU_SearchEngine.py:60] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'organic_results', 'related_searches', 'pagination', 'serpapi_pagination']
+2026-03-14 22:14:57 - NEMU - INFO - [NEMU_SearchEngine.py:80] - Search successful - Found 3 results for 'latest news in Bengali'
+2026-03-14 22:14:57 - NEMU - DEBUG - [NEMU_SearchEngine.py:93] - Cached results for query: 'latest news in Bengali'
