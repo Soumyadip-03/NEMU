@@ -1,0 +1,37 @@
+# Credentials and sensitive files
+*.env
+.env
+.env.*
+credentials.json
+credentials.yml
+credentials.yaml
+secrets.json
+secrets.yml
+secrets.yaml
+config/credentials.yml
+config/secrets.yml
+
+# API keys and tokens
+*.key
+*.pem
+*.p12
+*.pfx
+.api_key
+api_keys.txt
+
+# AWS credentials
+.aws/
+aws-credentials.json
+
+# Database credentials
+database.yml
+db_config.json
+
+# SSH keys
+id_rsa
+id_dsa
+*.ppk
+
+# Logs
+logs/
+*.log

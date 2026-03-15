@@ -6,12 +6,7 @@ from livekit.plugins import google, noise_cancellation
 
 from prompts import BEHAVIOUR_PROMPT, REPLY_PROMPT
 from NEMU_SearchEngine import get_search_tool, get_current_time
-from logger import logger, log_user, log_nemu
-
-
-# ==============================
-# ENVIRONMENT
-# ==============================
+from logger import logger, log_user, log_nemu, nemu_thinking
 
 load_dotenv(".env.local")
 
@@ -53,14 +48,12 @@ async def my_agent(ctx: agents.JobContext):
 
     logger.info(f"RTC session started | Room: {ctx.room.name}")
 
-    # Create session
     session = AgentSession(
         llm=google.beta.realtime.RealtimeModel(
             voice="Charon"
         )
     )
 
-    # Start session
     await session.start(
         room=ctx.room,
         agent=Assistant(),
@@ -77,18 +70,28 @@ async def my_agent(ctx: agents.JobContext):
     logger.info("Agent session started")
 
     # ==============================
-    # TRANSCRIPT LOGGER
+    # USER SPEECH EVENT
     # ==============================
 
-    @session.on("agent speech")
+    @session.on("user_speech")
+    def on_user_speech(speech):
+        log_user(speech.text)
+        nemu_thinking()
+
+
+    # ==============================
+    # AGENT SPEECH EVENT
+    # ==============================
+
+    @session.on("agent_speech")
     def on_agent_speech(speech):
         log_nemu(speech.text)
 
-    @session.on("user speech")
-    def on_user_speech(speech):
-        log_user(speech.text)
 
-    # Start conversation
+    # ==============================
+    # START CONVERSATION
+    # ==============================
+
     await session.generate_reply(
         instructions=REPLY_PROMPT
     )
