@@ -1,7 +1,0 @@
-2026-03-13 02:09:50 - NEMU - INFO - [NEMU_SearchEngine.py:82] - NEMU Search Engine initialized
-2026-03-13 02:10:20 - NEMU - INFO - [NEMU_SearchEngine.py:28] - Search initiated - Query: 'current conflict between Israel and Iran' | Results requested: 5
-2026-03-13 02:10:20 - NEMU - DEBUG - [NEMU_SearchEngine.py:37] - Sending request to SerpAPI
-2026-03-13 02:10:21 - NEMU - DEBUG - [NEMU_SearchEngine.py:40] - API Response received successfully
-2026-03-13 02:10:21 - NEMU - DEBUG - [NEMU_SearchEngine.py:41] - SerpAPI Response Keys: ['error']
-2026-03-13 02:10:21 - NEMU - WARNING - [NEMU_SearchEngine.py:44] - No results found for query: 'current conflict between Israel and Iran'
-2026-03-13 02:10:21 - NEMU - DEBUG - [NEMU_SearchEngine.py:45] - Full API Response: {'error': 'Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key'}

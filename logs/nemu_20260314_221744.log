@@ -1,8 +1,0 @@
-2026-03-14 22:17:45 - NEMU - INFO - [NEMU_SearchEngine.py:108] - NEMU Search Engine initialized
-2026-03-14 22:18:22 - NEMU - INFO - [NEMU_SearchEngine.py:47] - Search initiated - Query: 'weather in Kolkata tomorrow' | Results requested: 3
-2026-03-14 22:18:22 - NEMU - DEBUG - [NEMU_SearchEngine.py:56] - Sending request to SerpAPI
-2026-03-14 22:18:26 - NEMU - DEBUG - [NEMU_SearchEngine.py:59] - API Response received successfully
-2026-03-14 22:18:26 - NEMU - DEBUG - [NEMU_SearchEngine.py:60] - SerpAPI Response Keys: ['search_metadata', 'search_parameters', 'search_information', 'answer_box', 'organic_results', 'related_searches', 'pagination', 'serpapi_pagination']
-2026-03-14 22:18:26 - NEMU - INFO - [NEMU_SearchEngine.py:80] - Search successful - Found 3 results for 'weather in Kolkata tomorrow'
-2026-03-14 22:18:26 - NEMU - DEBUG - [NEMU_SearchEngine.py:81] - Results: ['Kolkata, West Bengal, India Weather Forecast', 'Daily Forecast Kolkata, West Bengal, India· as of 5:00 PM ...', 'Kolkata, India 10-Day Weather Forecast']
-2026-03-14 22:18:26 - NEMU - DEBUG - [NEMU_SearchEngine.py:93] - Cached results for query: 'weather in Kolkata tomorrow'

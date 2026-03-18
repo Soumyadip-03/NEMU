@@ -7,6 +7,7 @@ from livekit.plugins import google, noise_cancellation
 from prompts import BEHAVIOUR_PROMPT, REPLY_PROMPT
 from NEMU_SearchEngine import get_search_tool, get_current_time
 from logger import logger, log_user, log_nemu, nemu_thinking
+from NEMU_Weather import get_current_weather, get_weather_forecast
 
 load_dotenv(".env.local")
 
@@ -27,7 +28,9 @@ class Assistant(Agent):
             instructions=BEHAVIOUR_PROMPT,
             tools=[
                 get_search_tool(),
-                get_current_time
+                get_current_time,
+                get_current_weather,
+                get_weather_forecast
             ]
         )
 
